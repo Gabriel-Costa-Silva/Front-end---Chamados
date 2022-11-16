@@ -1,29 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title>Work</title>
+        <title>Chamados</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-        <link rel="stylesheet" href="/style/estilo.css">
+        <link rel="stylesheet" href="../style/estilo.css">
     </head>
     <body>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
         
-        <div class="background-color" style="background-color: #810909;">
+        <div class="background-color" style="background-color: #b51010;">
             <ul class="nav justify-content-end menu col-11">
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html" style="color: rgb(243, 243, 243);">Início</a>
-
+                <a class="nav-link" href="index.html" style="color: rgb(197, 197, 197);">Início</a>
                 </li>
                 <li class="nav-item" >
-                <a class="nav-link" href="# style=" style="color: rgb(197, 197, 197);">Link</a>
+                <a class="nav-link active" aria-current="page" href="chamados.html" style="color: rgb(243, 243, 243);">Chamados</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#" style="color: rgb(197, 197, 197);">Link</a>
+                <a class="nav-link" href="#" style="color: rgb(197, 197, 197);">Ajuda</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#" style="color: rgb(197, 197, 197);">Link</a>
+                <a class="nav-link" href="#" style="color: rgb(197, 197, 197);">Sair</a>
                 </li>
             </ul>
         </div>
@@ -31,10 +30,25 @@
         <div class="container text-center" style="border-color: #000;">
             <div class="row">
                 <div class="col">
-                    <h2>Chamados Work</h2>
+                    <h2>Chamados Bradesco</h2>
                 </div>
             </div>
         </div>
+
+        <div class="container">
+            <div class="row justify-content-start">
+                <div class="col-5">
+                    <a>Filtros</a>
+                    <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                        <option selected>Filtrar por</option>
+                        <option value="1">Atribuídos a mim</option>
+                        <option value="2">Concluídos</option>
+                        <option value="3">Em andamento</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <br>
         
 		<div class="container text-center">
         <table class="table table-bordered table-hover table-bg">
@@ -49,32 +63,41 @@
             <tbody class="table-group-divider">
                 <tr>
                     <th scope="row">1</th>
-                    <td>Mark</td>
+                    <td>Marketing</td>
                     <td>
 					<div class="progress">
 						<div class="progress-bar" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 					</div>
 					</td>
-                    <td>@mdo</td>
+                    <td>Joana</td>
                 </tr>
                 <tr>
                     <th scope="row">2</th>
-                    <td>Jacob</td>
+                    <td>T.I.</td>
                     <td>
 					<div class="progress">
 						<div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 					</div>
 					</td>
-                    <td>@fat</td>
+                    <td>Murilo</td>
                 </tr>
                 <tr>
                     <th scope="row">2</th>
-                    <td>Roberto</td>
+                    <td>Vendas</td>
                     <td>Esteira</td>
-                    <td>@fit</td>
+                    <td>Mariana</td>
                 </tr>
             </tbody>
         </container>
+        <footer class="border-top fixed-bottom text-muted bg-black">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        &copy; 2022 - Bradesco Chamados
+                    </div>
+                </div>
+            </div>
+        </footer>
 		</div>
     </body>
 </html>

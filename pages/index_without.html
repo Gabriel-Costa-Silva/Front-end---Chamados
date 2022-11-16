@@ -13,16 +13,53 @@
         <div class="background-color" style="background-color: #b51010;">
             <ul class="nav justify-content-end menu col-11">
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html" style="color: rgb(243, 243, 243);">Início</a>
+                <a class="nav-link active" aria-current="page" href="index_without.html" style="color: rgb(243, 243, 243);">Início</a>
                 </li>
                 <li class="nav-item" >
-                <a class="nav-link" href="chamados.html" style="color: rgb(197, 197, 197);">Chamados</a>
+                <a class="nav-link" href="#" style="color: rgb(197, 197, 197);">Quem somos</a>
+                </li>
+                <li class="nav-item">
+               <!-- Button trigger modal -->
+                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" style="color: rgb(197, 197, 197);">
+                    Login
+                </a>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="row mb-3">
+                                      <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                                      <div class="col-sm-10">
+                                        <input type="email" class="form-control" id="inputEmail3">
+                                      </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                      <label for="inputPassword3" class="col-sm-2 col-form-label">Senha</label>
+                                      <div class="col-sm-10">
+                                        <input type="password" class="form-control" id="inputPassword3">
+                                      </div>
+                                    </div>
+                                    <a id="recuperacao" href="#">Não lembra sua senha?</a><br>
+                                    <a id="recuperacao" href="cadastro.html">Não possui conta? Solicite acesso aqui</a>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn btn-primary">Entrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="#" style="color: rgb(197, 197, 197);">Ajuda</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#" style="color: rgb(197, 197, 197);">Sair</a>
                 </li>
             </ul>
         </div>
