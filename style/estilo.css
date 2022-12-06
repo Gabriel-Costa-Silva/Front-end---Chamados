@@ -2,7 +2,7 @@ footer{
     padding: 2%;
 }
 
-.carousel-inner{
+.carousel-inner img{
     height: 45em;
 
 }
@@ -24,10 +24,40 @@ footer{
    --bs-border-opacity: 0.1;
    --bs-sucess-rgb: #fff;
  }
+ #cadastro{
+   color: #000;
+   font-weight: bold;
+ }
  #cadastroBody{
-   color: #fff;
-   background-image: url(https://atmdigital.com.br/wp-content/uploads/2017/06/100450-gerenciamento-de-projetos-importancia-como-funciona-e-mais.jpg);
+   background-image: linear-gradient(45deg, rgb(161, 25, 25),rgb(223, 69, 35),rgb(101, 8, 66) );
    background-repeat: no-repeat;
    background-size: 100%;
-   background-color: rgb(177, 13, 4);
+   background-color: rgb(181, 181, 181);
+   background-size: 500%, 100%;
+   animation: degrade 5s infinite alternate;
  }
+
+@keyframes degrade {
+  0%{
+    background-position: 0%;
+  }
+  100%{
+    background-position: 100%;
+  }
+}
+
+.carousel-control-next-icon{
+  box-shadow: #000;
+}
+
+a.nav-link{
+  color: rgb(197, 197, 197);
+}
+
+a.nav-link.active{
+  color: rgb(243, 243, 243);
+}
+
+a.nav-link:hover{
+  color: rgb(243, 243, 243);
+}
