@@ -13,14 +13,17 @@
         <div class="background-color" style="background-color: #b51010;">
             <ul class="nav justify-content-end menu col-11">
                 <li class="nav-item">
-                <a class="nav-link" href="index.html">Início</a>
+                    <a class="nav-link" href="index.html">Início</a>
                 </li>
                 <li class="nav-item" >
-                <a class="nav-link active" aria-current="page" href="chamados.html">Chamados</a>
+                    <a class="nav-link active" aria-current="page" href="chamados.html">Chamados</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#" onclick="showHelp()">Ajuda</a>
+                    <a class="nav-link" href="#" onclick="showHelp()">Ajuda</a>
                 </li>
+                <li>
+                    <a class = "nav-link" href="#" onclick="quemSomos()">Quem somos</a>
+                  </li>
                 <li class="nav-item">
                 <a class="nav-link" href="../pages/index.html">Sair</a>
                 </li>
@@ -67,6 +70,7 @@
                     <th scope="col">Setor</th>
                     <th scope="col">Andamento</th>
                     <th scope="col">Responsável</th>
+                    <th scope="col">Editar</th>
                 </tr>
             </thead>
             <tbody class="table-group-divider">
@@ -79,6 +83,7 @@
 					</div>
 					</td>
                     <td>Joana</td>
+                    <td><a class="bi bi-pen" onclick="editarChamado()">Editar</a></td> 
                 </tr>
                 <tr>
                     <th scope="row">2</th>
@@ -89,12 +94,14 @@
 					</div>
 					</td>
                     <td>Murilo</td>
+                    <td><a class="bi bi-pen" onclick="editarChamado()">Editar</a></td> 
                 </tr>
                 <tr>
                     <th scope="row">3</th>
                     <td>Vendas</td>
                     <td>Esteira</td>
-                    <td>Mariana</td>
+                    <td>Mariana</td> 
+                    <td><a class="bi bi-pen" onclick="editarChamado()" >Editar</a></td> 
                 </tr>
             </tbody>
         </container>

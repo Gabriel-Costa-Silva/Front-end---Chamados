@@ -16,13 +16,13 @@
                 <a class="nav-link active" aria-current="page" href="index_without.html">Início</a>
                 </li>
                 <li class="nav-item" >
-                <a class="nav-link" href="#">Quem somos</a>
+                <a class="nav-link" href="#" onclick="quemSomos()">Quem somos</a>
                 </li>
                 <li class="nav-item">
                <!-- Button trigger modal -->
-                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Login
-                </a>
+                  <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Login
+                  </a>
                 
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -52,14 +52,14 @@
                             </div>
                             <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                            <button type="button" class="btn btn-primary">Entrar</button>
+                            <button type="button" class="btn btn-primary" href="./index.html">Entrar</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Ajuda</a>
+                <a class="nav-link" href="#" onclick="showHelp()">Ajuda</a>
                 </li>
             </ul>
         </div>
@@ -128,6 +128,10 @@
             </div>
         </div>
       </footer>
+      <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+      <script src="../javascript/chamados.js"></script>
+
     </script>
     </body>
 </html>
