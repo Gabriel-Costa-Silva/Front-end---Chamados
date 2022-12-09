@@ -111,3 +111,38 @@ Swal.fire({
   footer: '<a href="https://banco.bradesco/html/classic/sobre/">Ir para Bradesco S/A</a>'
 })
 }
+function showChamado1(){
+  Swal.fire({
+    title: 'Chamado nº 1',
+    html:'<p><h3>Verificar Propaganda de Natal.</h3></p>'+
+    '<p>Corrigir erro ortográfico no segundo parágrafo da propaganda.</p>'+
+    '<p>Departamento: Marketing.</p>'+
+
+    '<p>Responsável: Joana</p>',
+    footer: 'DATA DE CRIAÇÃO: 28/11/2022'
+  })
+}
+function showChamado2(){
+  Swal.fire({
+    title: 'Chamado nº 2',
+    html:'<p><h3>Manutenção máquina 0678542.</h3></p>'+
+    '<p>Máquina ATM 0678542 não consegue se comunicar com o servidor cliente.</p>'+
+    '<p>Departamento: TI.</p>'+
+
+    '<p>Responsável: Murilo</p>',
+
+    footer: 'DATA DE CRIAÇÃO: 09/11/2022'
+  })
+}
+function showChamado3(){
+  Swal.fire({
+    title: 'Chamado nº 3',
+    html:'<p><h3>Marcar reunião com cliente Antonio Vargas .</h3></p>'+
+    '<p>Desde a oferta da financeira DeValore, é necessário acertarmos alguns pontos.</p>'+
+    '<p>Departamento: Vendas.</p>'+
+
+    '<p>Responsável: Mariana</p>',
+
+    footer: 'DATA DE CRIAÇÃO:30/04/2022'
+  })
+}
