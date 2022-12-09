@@ -107,7 +107,7 @@ function quemSomos(){
 Swal.fire({
   icon: 'question',
   title: 'Quem somos',
-  html: '<p>ANSELMO ALVES MARTINS</p><br><p>GABRIEL DA COSTA SILVA</p><br><p>JUVENAL JOÃO DE LIRA FILHO</p><br><p>VITOR ITIRO OKI TAKAHASHI</p><br><p>VINICIUS DE MORAES PACHECO</p><br>',
+  html: '<h3>INTEGRANTES DO GRUPO: </h3><br><p>Anselmo Alves Martins</p><br><p>Gabriel da Costa Silva</p><br><p>Juvenal João de Lira Filho</p><br><p>Vitor Itiro Oki Takahashi</p><br><p>Vinicius de Moraes Pacheco</p><br>',
   footer: '<a href="https://banco.bradesco/html/classic/sobre/">Ir para Bradesco S/A</a>'
 })
 }
